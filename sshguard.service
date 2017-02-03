@@ -5,6 +5,8 @@ Requires=docker.service
 
 [Service]
 TimeoutStartSec=0
+Restart=always
+RestartSec=5s
 
 # setup sshguard tables
 ExecStartPre=-/usr/sbin/iptables -N sshguard
