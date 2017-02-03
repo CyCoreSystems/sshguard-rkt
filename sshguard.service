@@ -1,7 +1,6 @@
 [Unit]
 Description=%p
-After=docker.service
-Requires=docker.service
+After=network-online.target
 
 [Service]
 TimeoutStartSec=0
