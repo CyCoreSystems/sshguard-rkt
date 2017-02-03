@@ -8,3 +8,6 @@ To use it:
   2. enable it at boot:  `systemctl enable sshguard`
   3. start it presently: `systemctl start sshguard`
   
+
+See [coreos-sshguard](https://github.com/CyCoreSystems/coreos-sshguard) for a
+complete setup, forked from @mischief
